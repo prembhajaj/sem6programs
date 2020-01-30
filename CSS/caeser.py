@@ -1,7 +1,7 @@
 print("Name: Prem Bhajaj, Sap ID:60004188001\n")
 
 def encipher():
-    pt = input("Enter plain text: ")
+    pt = input("Enter plain text:  ")
 
     dis = int(input("Enter Displacement: "))
 
