@@ -29,7 +29,7 @@ def convertIntoMatrix(plainText,key,matrixPlainText):
             while i < len(key):
                 matrixPlainText[rowCount].append("-")
                 i += 1
-    print(matrixPlainText)
+    #print(matrixPlainText)
     return matrixPlainText
 
 
@@ -59,7 +59,7 @@ def encipher(key):
         # matrixPlainText[0][i] = "z"
     str_enc_text = ""    
     str_enc_text = str_enc_text.join(enc_text)
-    print(str_enc_text)
+    print("Cipher Text is:",str_enc_text)
 
 encipher(key)
 
