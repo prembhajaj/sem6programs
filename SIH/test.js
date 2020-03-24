@@ -1,4 +1,4 @@
-$.ajax(
+x =     $.ajax(
     {
         type: "POST",
         url: '../api/doctor/create.php',
